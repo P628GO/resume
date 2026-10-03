@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume and professional profile of Pengpai Zhang">
+  <title>Pengpai Zhang | Resume</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #17202a;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 22px;
+      background: #ffffff;
+      border-bottom: 1px solid #d9dee3;
+    }
+    h1 { margin: 0; font-size: 20px; font-weight: 650; }
+    .role { margin: 3px 0 0; color: #57606a; font-size: 14px; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .button {
+      display: inline-block;
+      padding: 9px 14px;
+      border-radius: 6px;
+      background: #0969da;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .button.secondary {
+      background: #ffffff;
+      color: #0969da;
+      border: 1px solid #0969da;
+    }
+    main { height: calc(100vh - 70px); padding: 16px; }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #d9dee3;
+      background: #ffffff;
+    }
+    @media (max-width: 600px) {
+      header { align-items: flex-start; flex-direction: column; }
+      main { height: calc(100vh - 148px); padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Pengpai Zhang</h1>
+      <p class="role">MSc Candidate in Electronic Information Engineering | AI Application Developer</p>
+    </div>
+    <div class="actions">
+      <a class="button secondary" href="ZHANG_Pengpai_cv.pdf" target="_blank" rel="noopener">View Resume</a>
+      <a class="button" href="ZHANG_Pengpai_cv.pdf" download>Download Resume</a>
+    </div>
+  </header>
+  <main>
+    <iframe src="ZHANG_Pengpai_cv.pdf" title="Pengpai Zhang Resume"></iframe>
+  </main>
+</body>
+</html>
